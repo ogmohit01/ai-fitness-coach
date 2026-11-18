@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #030712; /* Rich ultra-black */
+    color: #f3f4f6;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    selection-background-color: #f59e0b;
+    selection-color: #000000;
+  }
+}
+
+/* Custom sleek pitch-black scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #030712;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f2937;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #374151;
+}
+
+/* Indian Glowing Accents */
+.saffron-glow {
+  box-shadow: 0 0 20px rgba(245, 158, 11, 0.25);
+}
+
+.emerald-glow {
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.25);
+}
+
+.chakra-spin {
+  animation: spin 20s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Glass card styling */
+.glass-panel {
+  background: rgba(10, 15, 29, 0.75);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.glass-panel-dark {
+  background: rgba(3, 7, 18, 0.9);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
