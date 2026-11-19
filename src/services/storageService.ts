@@ -19,14 +19,14 @@ const STORAGE_KEYS = {
 };
 
 const DEFAULT_PROFILE: UserProfile = {
-  name: 'Alex Hunter',
-  age: 25,
+  name: 'Boss',
+  age: 20,
   gender: 'male',
-  weightKg: 72,
-  heightCm: 176,
+  weightKg: 80,
+  heightCm: 182,
   fitnessLevel: 'intermediate',
   primaryGoal: 'muscle_gain',
-  targetWeightKg: 76,
+  targetWeightKg: 90,
   activityLevel: 'moderate',
   dietaryPreference: 'high_protein_veg',
   streakDays: 4,
